@@ -24,7 +24,7 @@ export default function FrontPage(props: any): JSX.Element {
     <>
       <Header title={settings?.title} description={settings?.description} />
       <main className="content">
-        <Hero
+        <UGH
           title="Get Started with Headless"
           buttonText="Developer Docs"
           buttonURL="https://developers.wpengine.com/"
